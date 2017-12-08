@@ -1,0 +1,14 @@
+{
+    "name": "jksoftcn/aliyun-php-sdk-sts",
+    "description": "Aliyun STS SDK for PHP",
+    "keywords": [ "aliyun", "STS", "sdk" ],
+    "type": "library",
+    "require": {
+        "jksoftcn/aliyun-dysms-php-sdk": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sts\\": "./"
+        }
+    }
+}
